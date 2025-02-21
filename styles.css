@@ -52,6 +52,7 @@ body {
     cursor: pointer;
 }
 
+/* Nav Styles */
 .nav {
     display: flex;
     gap: 50px;
@@ -88,6 +89,7 @@ body {
     transform: scaleX(1); /* Expand on hover */
 }
 
+/* About Styles */
 #about {
     display: flex;
     align-items: center;
@@ -140,7 +142,7 @@ body {
     font-weight: bold;
 }
 
-/* skill section */
+/* Skill Styles */
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -174,7 +176,7 @@ body {
     background-color: #e0e0e0
 }
 
-/* Experience Section */
+/* Experience Styles */
 .experience-item {
     margin-bottom: 30px;
     padding: 20px;
@@ -194,7 +196,7 @@ body {
     margin: 5px 0;
 }
 
-/* Education Section */
+/* Education Styles */
 .education-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -211,7 +213,7 @@ body {
     background-color: #e0e0e0;
 }
 
-/* Projects Section */
+/* Projects Styles */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -241,7 +243,7 @@ body {
     font-size: 14px;
 }
 
-/* Contact Section */
+/* Footer Styles */
 footer {
     display: flex;
     align-items: center;
@@ -314,12 +316,20 @@ footer {
 
     .media-icons {
         display: flex;
-        flex-direction: column;
         align-items: center;
+        margin-top: 20px;
     }
 
     .media-icons a {
         margin: 5px 0;
+    }
+
+    .project-card {
+        padding: 30px;
+    }
+
+    #contact {
+        display: block;
     }
       
 }
