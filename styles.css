@@ -305,8 +305,12 @@ footer {
 
 
     #about {
-          flex-direction: column; /* Stacks elements on smaller screens */
-          text-align: center;
+        flex-direction: column; /* Stacks elements on smaller screens */
+        text-align: center;
+    }
+
+    .about-image {
+        margin-top: 30px;
     }
 
     .education-card {
